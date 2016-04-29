@@ -24,7 +24,7 @@ a {
 /************************************ */
 /*=========     GLOBAL     ========= */
 /********************************** */
-#services, #portfolio, #about {
+#services, #portfolio, #about, #team, #contact {
   padding: 100px 0; }
 
 .section-title {
@@ -218,17 +218,143 @@ a {
   .time-line-text p {
     font-size: 16px; }
 
+.modal-content {
+  min-height: 100vh;
+  min-width: 100vw;
+  border-radius: 0; }
+  .modal-content img {
+    margin: auto; }
+
 /********************************** */
 /*=========     TEAM     ========= */
 /******************************** */
+#team {
+  background-color: #f7f7f7; }
+
+.team-member {
+  margin-bottom: 40px; }
+  .team-member .item-subtitle {
+    margin-bottom: 0; }
+    .team-member .item-subtitle + p {
+      line-height: 20px;
+      margin-bottom: 10px; }
+  .team-member a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background-color: #333;
+    color: #fff;
+    font-size: 20px;
+    transition: 600ms;
+    -ms-transition: 600ms;
+    -webkit-transition: 600ms;
+    border-radius: 50%;
+    -webkit-border-radius: 50%; }
+    .team-member a:hover {
+      transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+      -webkit-transform: rotate(360deg);
+      background-color: #fed136; }
+
+.team-img {
+  width: 230px;
+  margin: auto;
+  border: solid 8px #fff;
+  overflow: hidden;
+  border-radius: 50%;
+  -webkit-border-radius: 50%; }
+
+.txt-large {
+  font-size: 17px;
+  line-height: 27px; }
+
 /************************************* */
 /*=========     CONTACT     ========= */
 /*********************************** */
-/************************************* */
+#contact {
+  background: url(../images/map-image.png) no-repeat center 100px #222; }
+
+#contact-form .form-control {
+  padding: 0 20px;
+  font-family: "Montserrat";
+  height: 65px;
+  margin-bottom: 20px;
+  font-size: 16px; }
+#contact-form textarea.form-control {
+  padding: 20px;
+  height: 235px; }
+#contact-form .btn-lg {
+  background-color: #fed136;
+  padding: 20px 30px;
+  color: #fff;
+  font-family: "Montserrat";
+  border-radius: 8;
+  -webkit-border-radius: 8; }
+  #contact-form .btn-lg:hover {
+    background-color: #e6b301; }
+
+/*********************************** */
 /*=========     FOOTER     ========= */
 /*********************************** */
+footer {
+  padding: 50px 0;
+  font-family: "Montserrat";
+  margin: 0; }
+
+.social-links a {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-color: #222;
+  text-align: center;
+  line-height: 40px;
+  margin: 20px 0;
+  font-size: 19px;
+  color: #fff;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  transition: 600ms;
+  -ms-transition: 600ms;
+  -webkit-transition: 600ms; }
+  .social-links a:hover {
+    transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    background-color: #fed136;
+    color: #222; }
+
+.footer-links a {
+  color: #fed136;
+  text-decoration: underline; }
+  .footer-links a:hover {
+    color: #222; }
+
 /***************************************** */
 /*=========     MEDIA-QUERIES    ========= */
 /***************************************** */
+@media (min-width: 768px) {
+  .time-line::before {
+    left: 50%; }
+  .time-line li:nth-child(even):after {
+    content: "";
+    display: block;
+    clear: both; }
+  .time-line li:nth-child(even) .time-line-text {
+    float: right;
+    text-align: left;
+    padding: 0 50px 0 20px; }
+
+  .time-line-img {
+    width: 120px;
+    height: 120px;
+    left: 50%;
+    margin-left: -60px; }
+
+  .time-line-text {
+    width: 40%;
+    text-align: right;
+    padding: 0 20px 0 50px; } }
 
 /*# sourceMappingURL=styles.css.map */

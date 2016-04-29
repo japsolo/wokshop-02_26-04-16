@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -36,19 +37,19 @@
 			<div class="collapse navbar-collapse" id="nav-links">
 	            <ul class="nav navbar-nav navbar-right">
 	               <li>
-	                  <a href="#services">Services</a>
+	                  <a href="#services" class="page-scroll">Services</a>
 	               </li>
 	               <li>
-	                  <a href="#portfolio">Portfolio</a>
+	                  <a href="#portfolio" class="page-scroll">Portfolio</a>
 	               </li>
 	               <li>
-	                  <a href="#about">About</a>
+	                  <a href="#about" class="page-scroll">About</a>
 	               </li>
 	               <li>
-	                  <a href="#team">Team</a>
+	                  <a href="#team" class="page-scroll">Team</a>
 	               </li>
 	               <li>
-	                  <a href="#contact">Contact</a>
+	                  <a href="#contact" class="page-scroll">Contact</a>
 	               </li>
 	            </ul>
 	        </div>
@@ -112,7 +113,7 @@
 				<div class="col-sm-6 col-md-4">
 					<article class="portfolio-item">
 						<figure>
-							<a>
+							<a href="#portfolio-01" data-toggle="modal">
 								<img src="images/portfolio/img-portfolio_01.png" alt="portfolio 01" class="img-responsive">
 								<div>
 									<span class="glyphicon glyphicon-plus"></span>
@@ -128,7 +129,7 @@
 				<div class="col-sm-6 col-md-4">
 					<article class="portfolio-item">
 						<figure>
-							<a>
+							<a href="#portfolio-02" data-toggle="modal">
 								<img src="images/portfolio/img-portfolio_02.png" alt="portfolio 02" class="img-responsive">
 								<div>
 									<span class="glyphicon glyphicon-plus"></span>
@@ -274,13 +275,175 @@
 	</section>
 
 	<!-- team -->
+	<section id="team">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 text-center">
+					<h2 class="section-title">Our Amazing Team</h2>
+					<p class="text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-4 text-center">
+					<article class="team-member">
+						<figure class="team-img">
+							<img src="images/team/team_01.jpg" alt="team 01" class="img-responsive">
+						</figure>
+						<h3 class="item-subtitle">Kay Garland</h3>
+						<p class="text-muted">Lead Designer</p>
+						<ul class="list-inline">
+							<li><a href="#"><span class="ion-social-twitter"></span></a></li>
+							<li><a href="#"><span class="ion-social-facebook"></span></a></li>
+							<li><a href="#"><span class="ion-social-linkedin"></span></a></li>
+						</ul>
+					</article>
+				</div>
+				<div class="col-sm-4 text-center">
+					<article class="team-member">
+						<figure class="team-img">
+							<img src="images/team/team_02.jpg" alt="team 02" class="img-responsive">
+						</figure>
+						<h3 class="item-subtitle">Larry Parker</h3>
+						<p class="text-muted">Lead Marketer</p>
+						<ul class="list-inline">
+							<li><a href="#"><span class="ion-social-twitter"></span></a></li>
+							<li><a href="#"><span class="ion-social-facebook"></span></a></li>
+							<li><a href="#"><span class="ion-social-linkedin"></span></a></li>
+						</ul>
+					</article>
+				</div>
+				<div class="col-sm-4 text-center">
+					<article class="team-member">
+						<figure class="team-img">
+							<img src="images/team/team_03.jpg" alt="team 03" class="img-responsive">
+						</figure>
+						<h3 class="item-subtitle">Diana Pertersen</h3>
+						<p class="text-muted">Lead Developer</p>
+						<ul class="list-inline">
+							<li><a href="#"><span class="ion-social-twitter"></span></a></li>
+							<li><a href="#"><span class="ion-social-facebook"></span></a></li>
+							<li><a href="#"><span class="ion-social-linkedin"></span></a></li>
+						</ul>
+					</article>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2 text-center">
+					<p class="text-muted txt-large">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
+				</div>
+			</div>
+		</div>
+	</section>
 
 	<!-- contact -->
+	<section id="contact">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 text-center">
+					<h2 class="section-title white">Contact Us</h2>
+					<p class="text-muted white">Lorem ipsum dolor sit amet consectetur.</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12">
+					<form id="contact-form">
+						<div class="row">
+							<div class="col-md-6">
+								<input class="form-control" placeholder="Your Name *" type="text">
+								<input class="form-control" placeholder="Your Email *" type="email">
+								<input class="form-control" placeholder="Your Phone *" type="tel">
+							</div>
+							<div class="col-md-6">
+								<textarea class="form-control" placeholder="Your Message *"></textarea>
+							</div>					
+							<div class="col-xs-12 text-center">
+								<button type="submit" class="btn btn-lg">SEND MESSAGE</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+
 
 	<!-- footer -->
+	<footer>
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-md-4">
+					<span class="copyright"> Copyright © Your Website 2014 </span>
+				</div>
+				<div class="col-md-4">
+					<ul class="list-inline social-links">
+						<li><a href="#"><span class="ion-social-twitter"></span></a></li>
+						<li><a href="#"><span class="ion-social-facebook"></span></a></li>
+						<li><a href="#"><span class="ion-social-linkedin"></span></a></li>
+					</ul>
+				</div>
+				<div class="col-md-4">
+					<ul class="list-inline footer-links">
+						<li><a href="#">Privacy Policy</a></li>
+						<li><a href="#">Terms of Use</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+
 
 	<!-- modal-content(oculto) -->
+	<div class="modal fade" id="portfolio-01">
+		<div class="modal-content">
+			<div class="container">
+				<div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+					<div class="modal-body text-center">
+						<h2>Project Name</h2>
+						<img class="img-responsive" src="images/portfolio/img-portfolio_01.png" alt="portfolio">
+						<br>
+						<p class="text-info">Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+						<ul class="list-inline">
+							<li>Date: April 2016</li>
+							<li>Client: Round Icons</li>
+							<li>Category: Graphic Design</li>
+						</ul>
+						<button type="button" class="btn" data-dismiss="modal">
+							<span class="glyphicon glyphicon-remove"></span>
+							Close Project
+						</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
+	<div class="modal fade" id="portfolio-02">
+		<div class="modal-content">
+			<div class="container">
+				<div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+					<div class="modal-body text-center">
+						<h2>Proyecto 02</h2>
+						<img class="img-responsive" src="images/portfolio/img-portfolio_02.png" alt="portfolio">
+						<br>
+						<p class="text-info">Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+						<ul class="list-inline">
+							<li>Date: April 2016</li>
+							<li>Client: Round Icons</li>
+							<li>Category: Graphic Design</li>
+						</ul>
+						<button type="button" class="btn" data-dismiss="modal">
+							<span class="glyphicon glyphicon-remove"></span>
+							Close Project
+						</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
 
 	<!-- librería-jQuery -->
